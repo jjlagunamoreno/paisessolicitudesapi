@@ -1,0 +1,24 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Mostrar 5 elementos por fila */
+    gap: 20px;
+    /* Espacio entre elementos */
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+b {
+    display: block;
+    margin-top: 10px;
+    /* Separación entre la imagen y el nombre */
+}
